@@ -54,12 +54,11 @@
 		};
 	};
 
-
 	grandmaxltekx {
                 model = "Samsung Galaxy Max (SM-G720N0)";
                 compatible = "samsung,grandmaxltekx", "qcom,msm8916", "lk2nd,device";
                 lk2nd,match-bootloader = "G720N0*";
-                samsung,muic-reset {
+		samsung,muic-reset {
                         i2c-gpio-pins = <105 106>;
                         i2c-address = <0x14>;
                 };
